@@ -1,7 +1,7 @@
 require 'rails_helper'
 require 'capybara/rails'
 
-feature 'Auth' do
+feature 'Register' do
 
   scenario 'Users can login and out' do
     create_user email: "user@example.com"
